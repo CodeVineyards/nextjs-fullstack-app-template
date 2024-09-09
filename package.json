@@ -2,6 +2,11 @@
   "name": "nextjs-fullstack-app-template",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20.16.0 <17",
+    "yarn": ">=1.22.0 <2",
+    "npm": "please-us-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
