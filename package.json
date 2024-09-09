@@ -5,7 +5,7 @@
   "engines": {
     "node": ">=20.16.0",
     "yarn": ">=1.22.0 <2",
-    "npm": "please-us-yarn"
+    "npm": "please-use-yarn"
   },
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "start": "next start",
     "lint": "next lint",
     "prettier": "prettier --write .",
-    "prepare": "husky install",
+    "commitlint": "commitlint --edit",
     "postinstall": "husky"
   },
   "dependencies": {
